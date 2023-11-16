@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.locationForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.location {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weatherData {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.weatherData h2 {
+  font-size: 24px;
+}
+
+.weatherData h1 {
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.weatherData img {
+  max-width: 100px;
+  height: auto;
+}
+
+.description {
+  font-style: italic;
+}
+
+.bookmarks {
+  margin-top: 20px;
+}
+
+.bookmarks h2 {
+  font-size: 24px;
+}
+
+.bookmarks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bookmarks li {
+  margin: 5px 0;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookmarks li:hover {
+  background-color: #ddd;
+}
